@@ -28,6 +28,24 @@ nyc_airbnb =
     stars = review_scores_location/2
   ) %>% 
   select(neighbourhood_group, neighbourhood, stars, price, room_type, lat, long) %>% 
+  filter(
+    neighbourhood_group == "Manhattan",
+    room_type == "Entire home/apt",
+    price %in% 100:500
+  ) %>% 
+  drop_na(stars)
   
+```
+
+## Make a scatterplot
+
+Here's a plotly scatterplot!
+
+```{r}
+nyc_airbnb %>%
+  mutate(text_label = str_c("Price: $", price, "\nStars: ", stars)) %>% 
+  plot_ly(
+    x = ~lat, y = ~long, type = "scatter", mode = "markers",
+    color = ~price, text = ~text_label, alpha = 0.5)
 ```
 
