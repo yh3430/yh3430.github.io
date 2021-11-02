@@ -7,3 +7,27 @@ output:
 ---
 
 This website is about making some plotly examples.
+
+
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Let's look at the NYC airbnb data
+
+```{r}
+data("nyc_airbnb")
+
+nyc_airbnb =
+  nyc_airbnb %>% 
+  mutate(
+    stars = review_scores_location/2
+  ) %>% 
+  select(neighbourhood_group, neighbourhood, stars, price, room_type, lat, long) %>% 
+  
+```
+
