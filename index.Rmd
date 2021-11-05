@@ -12,10 +12,14 @@ It is a great fun learning data science using R studio
 ![](https://i.imgur.com/1CssljC.gif)
 
 
-I can link to useful things like[google](https://www.google.com/) and [p8105](https://www.p8105.com/index.html)
+Our data science class website is [p8105](https://www.p8105.com/index.html)
 
 
-I can make an extra page on my site and link to that. Here's my [about](about.html) page.
+I study epidemiolog at Columbia University - Mailman School of Public Health. If you want know more about my school.Here is the link 
+[Mailman School of Public Health](https://www.publichealth.columbia.edu/)
+
+Here's my Curriculum Vitea [Yu's CV](Yu_CV.html)page
+
 
 
 # Here's My favorate soccer team's youtube channel
