@@ -18,9 +18,9 @@ library(plotly)
 weather_df = 
   rnoaa::meteo_pull_monitors(
     c("USW00094728", "USC00519397", "USS0023B17S"),
-    var = c("PRCP", "TMIN", "TMAX"), 
-    date_min = "2017-01-01",
-    date_max = "2017-12-31") %>%
+    var = c("PRCP", "SNWD", "TMIN", "TMAX"), 
+    date_min = "2020-01-01",
+    date_max = "2020-12-31") %>%
   mutate(
     name = recode(
       id, 
@@ -29,6 +29,7 @@ weather_df =
       USS0023B17S = "Waterhole_WA"),
     tmin = tmin / 10,
     tmax = tmax / 10) %>%
+   replace_na(list(prcp = 0, snwd = 0, tmax = 0, tmin = 0)) %>% 
   select(name, id, everything())
 ```
 
