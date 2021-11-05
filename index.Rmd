@@ -7,9 +7,10 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# This is Yu's first and awesome website
+It is a great fun learning data science using R studio
+![](https://i.imgur.com/1CssljC.gif)
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 I can link to useful things like[google](https://www.google.com/) and [p8105](https://www.p8105.com/index.html)
 
@@ -17,10 +18,14 @@ I can link to useful things like[google](https://www.google.com/) and [p8105](ht
 I can make an extra page on my site and link to that. Here's my [about](about.html) page.
 
 
-## Here's Ted
+# Here's My favorate soccer team's youtube channel
 
-My cat's name is Ted. He likes to be on the internet. Here he is:
-<img src="image/cu_photo.jpg" style="width:75%">
+[MU youtube](https://www.youtube.com/c/manutd)
+
+# My baby 
+My baby's name is Lucas. He likes to be playing around when I am working on my data science homework. Here he is:
+
+<img src="image/Lucas.jpg" style="width:75%">
 
 
 
