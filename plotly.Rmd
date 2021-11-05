@@ -1,51 +1,25 @@
 ---
-title: "Plotly"
+title: "NOAA data description"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-This website is about making some plotly examples.
+# This page is the short description of the NOAA National Climatic Data
+
+
+The Global Historical Climatology Network daily (GHCNd) is an integrated database of daily climate summaries from land surface stations across the globe. GHCNd is made up of daily climate records from numerous sources that have been integrated and subjected to a common suite of quality assurance reviews.
+
+GHCNd contains records from more than 100,000 stations in 180 countries and territories. NCEI provides numerous daily variables, including maximum and minimum temperature, total daily precipitation, snowfall, and snow depth. About half the stations only report precipitation. Both record length and period of record vary by station and cover intervals ranging from less than a year to more than 175 years.
+Here is the link for [GHCNd](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)
+
+You can download the climate Data here:
+[climate data](https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND)
+
+
+ 
 
 
 
-```{r}
-library(tidyverse)
-library(p8105.datasets)
-
-library(plotly)
-```
-
-Let's look at the NYC airbnb data
-
-```{r}
-data("nyc_airbnb")
-
-nyc_airbnb =
-  nyc_airbnb %>% 
-  mutate(
-    stars = review_scores_location/2
-  ) %>% 
-  select(neighbourhood_group, neighbourhood, stars, price, room_type, lat, long) %>% 
-  filter(
-    neighbourhood_group == "Manhattan",
-    room_type == "Entire home/apt",
-    price %in% 100:500
-  ) %>% 
-  drop_na(stars)
-  
-```
-
-## Make a scatterplot
-
-Here's a plotly scatterplot!
-
-```{r}
-nyc_airbnb %>%
-  mutate(text_label = str_c("Price: $", price, "\nStars: ", stars)) %>% 
-  plot_ly(
-    x = ~lat, y = ~long, type = "scatter", mode = "markers",
-    color = ~price, text = ~text_label, alpha = 0.5)
-```
 

@@ -5,9 +5,9 @@ navbar:
   right:
     - text: "Yu's CV"
       href: Yu_CV.html
-    - text: "Plotly"
+    - text: "NOAA data"
       href: Plotly.html
-    - text: "Dashboard"
+    - text: "NOAA Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<heyu0424@hotmail.com>

@@ -1,16 +1,57 @@
 ---
-title: "Yu_CV"
+title: "Yu He's CV"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+# Education 
+KANSAS STATE UNIVERSITY, Manhattan, KS [KSU](https://www.k-state.edu/)
+Bachelor of Science, Biological Systems Engineering 
 
-This website is about how cool the internet is!!
+ICANH SCHOOL OF MEDICINE AT MOUNT SINAI, New York, NY [Mount Sinai](https://icahn.mssm.edu/)
+Doctor of Medicine
 
+Hofstra University, Hempstead, NY [Hofstra](https://www.hofstra.edu/)
+Master of Public Health, Public health
 
+Columbia University, New York, NY [Columbia](https://www.columbia.edu/)
+Master of Science, Epidemiology
 
+# Research 
 
+1. Arm Guard Project – Heartspring (A worldwide center for children with special needs) and Kansas
+State University Project - Adviser: Dr. Edwin L.Brokesh. P.E, PhD 
 
+2. The interplay between Cognitive and Motor Fatigue in Multiple Sclerosis - Kessler Foundation
+research project - Primary Investigator: Dr. Zhiguo Jiang, PhD
 
-Here's back to the [index](index.html) page.
+3. Fractal Dimension Measurement indicated deterioration of brain white matter integrity in
+Multiple Sclerosis - Kessler Foundation research project - Primary Investigator: Dr. Zhiguo Jiang, PhD 
+
+4. Clinical risk predictors of pneumonia among stroke patients admitted for inpatient care at a
+provincial hospital in Thailand - Primary Investigator: Dr. Chanapong Rojanaworarit, DDS, MPH, PhD
+
+5. Association between Air Pollution and the Prevalence of Alzheimer’s disease at Four
+Metropolitan Areas in the United States of America – Icahn School of Medicine Thesis -
+Adviser: Dr. Nikolaos K. Robakis, MD
+
+6. Help Me Growth evaluation project - Primary Investigator: Dr. Martine Hackett, MPH, CHES, PhD
+
+7. Exercise with Pride – Hofstra University evaluation project - Adviser: Dr. Anthony J. Santella, MPH, PhD
+MCHES
+
+# Working and leadership
+
+1. Dujiangyan xingda foodstuff co., LTD CHENGDU SICHUAN PROVINCE CHINA - Manager Assistant in
+biotechnology
+
+2. Air Quality Laboratory, Department of Biological & Agricultural Engineering, Kansas State University,
+Manhattan, KS - Undergraduate Research Assistant
+
+3. Chinese Students Service Fraternity, Kansas State University, Manhattan, KS - Vice-Minister of
+Organizing Department
+
+4. Kessler Foundation, West Orange, NJ - Research Assistant
+
+Here's back to the [homeage](index.html) page.
