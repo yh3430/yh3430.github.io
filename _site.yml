@@ -11,8 +11,14 @@ navbar:
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<heyu0424@hotmail.com>
+    - icon: fa-CV fa-lg
+      href: ./resource/CV_yuhe.pdf
     - icon: fa-github fa-lg
       href: http://github.com/yh3430/
 output:
   html_document:
     theme: cerulean
+    
+
+
+   

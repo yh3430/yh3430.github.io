@@ -1,5 +1,5 @@
 ---
-title: "My first personal website"
+title: "Yu He website"
 output: 
   html_document:
     toc: true
@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# This is Yu's first and awesome website
+# This is my first and awesome website
 It is a great fun learning data science using R studio
 ![](https://i.imgur.com/1CssljC.gif)
 
@@ -15,14 +15,14 @@ It is a great fun learning data science using R studio
 Our data science class website is [p8105](https://www.p8105.com/index.html)
 
 
-I study epidemiolog at Columbia University - Mailman School of Public Health. If you want know more about my school.Here is the link 
+I am studying epidemiology at Columbia University - Mailman School of Public Health. If you want know more about my school.Here is the link 
 [Mailman School of Public Health](https://www.publichealth.columbia.edu/)
 
 Here's my Curriculum Vitea [Yu's CV](Yu_CV.html)page
 
 
-
 # Here's My favorate soccer team's youtube channel
+<img src="image/mu.png" style="width:75%">
 
 [MU youtube](https://www.youtube.com/c/manutd)
 
