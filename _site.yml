@@ -6,7 +6,7 @@ navbar:
     - text: "Yu's CV"
       href: Yu_CV.html
     - text: "NOAA data"
-      href: Plotly.html
+      href: NOAA_data.html
     - text: "NOAA Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
