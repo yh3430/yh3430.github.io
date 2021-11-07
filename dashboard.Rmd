@@ -14,6 +14,7 @@ library(ggridges)
 library(plotly)
 ```
 
+
 ```{r}
 weather_df = 
   rnoaa::meteo_pull_monitors(
@@ -46,7 +47,7 @@ weather_df %>%
     temp_range = str_c("Temp Max: degree C ", tmax, "\nTemp Min: degree C ", tmin)
   ) %>% 
   plot_ly(
-    x = ~date, y = ~prcp, type = "scatter", mode = "markers",
+    x = ~date, y = ~prcp, type = "scatter", mode = "markers+lines",
     color = ~name, text = ~temp_range, alpha = .8
   )
 ```
@@ -83,10 +84,27 @@ weather_df %>%
 
 ```{r}
 weather_df %>% 
+  filter(
+    !(prcp == "0")
+  ) %>% 
+  separate(date, into = c("year", "month", "day"), convert = TRUE) %>% 
+  mutate(
+    month = recode(month, 
+             "1" = "January", "2" = "February",
+             "3" = "March", "4" = "April",
+             "5" = "May", "6" = "June",
+             "7" = "July", "8" = "August",
+             "9" = "September", "10" = "October",
+             "11" = "November", "12" = "December")
+  ) %>% 
+  select(name, month, prcp) %>% 
+  count(month) %>% 
+  mutate(
+    month = fct_reorder(month, n)
+  ) %>% 
   plot_ly(
-    x = ~date, y = ~prcp
-  ) %>%  
-  add_lines(color = ~name, color = "viridis", alpha = 0.8)
+    x = ~month, y = ~n, color = ~month, type = "bar", colors = "viridis"
+  )
 ```
 
 Here's back to the [index](index.html) page.
