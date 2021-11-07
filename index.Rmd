@@ -17,7 +17,13 @@ Our data science class website is [p8105](https://www.p8105.com/index.html).
 
 I am analyzing the [NOAA](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) data.
 
-You can see the short data description here[NOAA data description](NOAA_data.html). In addtion, you can also view the [NOAA dashboard](dashboard.html) page, which includes some interactive plot of snow depth, precipitation, maximum and minimum temperature.
+You can see the short data description here [NOAA data description](NOAA_data.html). In addition, you can also view the [NOAA dashboard](dashboard.html) page, which includes some interactive plots of snow depth, precipitation, maximum and minimum temperature.
+
+The chart A is the plot of daily precipitation between 1/1/2020 to 12/31/2020 at Central Park, NY, Waikiki, HA, and Waterhole, WA.
+
+The chart B is the plot of daily maximum temperature in each month from 1/1/2020 to 12/31/2020 at Central Park, NY, Waikiki, HA, and Waterhole, WA.
+
+The chart C is the plot of number of raining days in each month from 1/1/2020 to 12/31/2020 at Central Park, NY, Waikiki, HA, and Waterhole, WA.
 
 I am studying epidemiology at Columbia University - Mailman School of Public Health. If you want know more about my school.Here is the link 
 [Mailman School of Public Health](https://www.publichealth.columbia.edu/).
